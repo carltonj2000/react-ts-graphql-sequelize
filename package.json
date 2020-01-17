@@ -1,0 +1,10 @@
+{
+  "name": "react-ts-graphql-sequelize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sql:start": "docker run -p 0.0.0.0:7999:3306 --name gsd-db -e MYSQL_ROOT_PASSWORD=password -e MYSQL_USER=gsd-dev -e MYSQL_DATABASE=gsd -d mysql:5.7.20",
+    "sql:bash": "docker exec bash "
+  }
+}

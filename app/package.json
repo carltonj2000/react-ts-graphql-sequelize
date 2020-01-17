@@ -1,0 +1,6 @@
+{
+  "name": "react-ts-graphql-sequelize-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
